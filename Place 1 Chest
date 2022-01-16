@@ -1,0 +1,10 @@
+    local posit = game.Players.LocalPlayer.Character.LowerTorso.Position
+local positX = posit.x
+local positY = posit.y -2.5
+local positZ = posit.z
+
+local ohString1 = "Chest"
+local ohCFrame2 = CFrame.new(positX, positY, positZ, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+local ohNumber3 = 0
+
+game:GetService("ReplicatedStorage").Events.PlaceStructure:FireServer(ohString1, ohCFrame2, ohNumber3)
