@@ -1,3 +1,5 @@
+spawn(function()'
+while chestWalk == true do
 local posit = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
 
 
@@ -68,3 +70,6 @@ local ohCFrame2 = CFrame.new(positX-6, positY-4, positZ-6, 0, 0, 0, 0, 1, 0, 0, 
 local ohNumber3 = 1707
 
 game:GetService("ReplicatedStorage").Events.PlaceStructure:FireServer(ohString1, ohCFrame2, ohNumber3)
+wait()
+end
+end)
