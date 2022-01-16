@@ -1,4 +1,4 @@
-spawn(function()'
+spawn(function()
 while chestWalk == true do
 local posit = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
 
